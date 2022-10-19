@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+//   Hello Rohit
     private Button btn1;
     private Button btn2;
     private TextView textViewtotal;
