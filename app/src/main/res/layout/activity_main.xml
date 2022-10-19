@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/addrectangle1"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/addrectangle2"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/addrectangle3"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addrectangle6" />
+
+    <View
+        android:id="@+id/addrectangle4"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addrectangle1" />
+
+    <View
+        android:id="@+id/addrectangle5"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addrectangle4" />
+
+    <!--    Total View-->
+
+    <View
+        android:id="@+id/addrectangle6"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addrectangle5" />
+
+    <View
+        android:id="@+id/addrectangle7"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addrectangle2" />
+
+    <View
+        android:id="@+id/addrectangle8"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber4" />
+
+    <View
+        android:id="@+id/addrectangle9"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addrectangle8" />
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="2000rs"
+        android:inputType="number"
+
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle1"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle1"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle1"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle1" />
+
+    <View
+        android:id="@+id/totalview"
+        android:layout_width="366dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:background="@drawable/totalview"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn11" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Total Will Be"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/totalview"
+        app:layout_constraintEnd_toEndOf="@+id/totalview"
+        app:layout_constraintStart_toStartOf="@+id/totalview"
+        app:layout_constraintTop_toTopOf="@+id/totalview" />
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="318dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="46dp"
+        android:text="Total"
+        app:layout_constraintBottom_toTopOf="@+id/totalview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addrectangle10" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="500rs"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle2"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle2"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle2"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle2" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="200rs"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle4"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle4"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle4"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle4" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="100rs"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle7"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle7"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle7"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle7" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="50rs"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle5"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle5"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle5"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextNumber6"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="20rs"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle8"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle8"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle8"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextNumber7"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="10rs"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle6"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle6"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle6"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle6"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextNumber8"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="5rs"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn11"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle9"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle9"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextNumber9"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="2rs"
+        android:inputType="number"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle3"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle3"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle3"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App by Rohit"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalview" />
+
+    <View
+        android:id="@+id/addrectangle10"
+        android:layout_width="114dp"
+        android:layout_height="48.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/addnum"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addrectangle9" />
+
+    <EditText
+        android:id="@+id/editTextNumber10"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="1rs"
+        android:inputType="number"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/addrectangle10"
+        app:layout_constraintEnd_toEndOf="@+id/addrectangle10"
+        app:layout_constraintStart_toStartOf="@+id/addrectangle10"
+        app:layout_constraintTop_toTopOf="@+id/addrectangle10" />
+</androidx.constraintlayout.widget.ConstraintLayout>

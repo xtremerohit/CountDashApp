@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dash Count</string>
+    <string name="_500rs">500rs</string>
+    <string name="Total" />
+</resources>
